@@ -3,7 +3,7 @@
    margin: 0 auto;
    display:block;
    margin-bottom: 30px;
-   margin-top: 50px;
+   margin-top: 30px;
 }
 
 input {
@@ -41,11 +41,47 @@ ul {
 }
 
 li{
-    display: inline;
-    padding: 8px;
+    display: inline-block;
+    padding: 0 7px 0 7px;
     vertical-align: middle;
+}
+
+.n_L {
+    padding-left: 0px;
 }
 
 li a{
     text-decoration: none;
+}
+
+.textLink{
+    font-family: arial;
+    font-size: 13px;
+    opacity: .75;
+}
+
+.textLink:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #000;
+}
+
+.topMenu{
+    float: right;
+}
+
+li div {
+    line-height: 20px;
+    vertical-align: middle;
+   
+}
+
+
+.clear
+{
+    clear: both;
+    display: block;
+    height: 0;
 }
